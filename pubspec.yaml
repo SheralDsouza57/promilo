@@ -1,0 +1,120 @@
+name: promilo
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.1.0
+  http: ^1.2.1
+  crypto: ^3.0.3
+  fluttertoast: ^8.2.6
+  flutter_share: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+ 
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/instagram.png
+  - assets/images/facebook.png
+  - assets/images/linkedin.png
+  - assets/images/google.png
+  - assets/images/whatsapp.png
+  - assets/images/line.png
+  - assets/images/home.png
+  - assets/images/home_active.png
+  - assets/images/prolet.png
+  - assets/images/prolet_active.png
+  - assets/images/meetup.png
+  - assets/images/meetup_active.png
+  - assets/images/explore.png
+  - assets/images/explore_active.png
+  - assets/images/account.png
+  - assets/images/account_active.png
+  - assets/images/meeting1.png
+  - assets/images/meeting2.png
+  - assets/images/meeting3.png
+  - assets/images/person1.png
+  - assets/images/person2.png
+  - assets/images/person3.png
+  - assets/images/person4.png
+  - assets/images/user1.png
+  - assets/images/user2.png
+  - assets/images/user3.png
+  - assets/images/user4.png
+  - assets/images/user5.png
+  - assets/images/picture1.png
+  - assets/images/picture2.png
+  - assets/images/picture3.png
+  - assets/images/picture4.png
+  - assets/images/picture5.png
+  - assets/images/picture6.png
+  - assets/images/image1.png
+  - assets/images/image2.png
+  - assets/images/image3.png
+  - assets/images/image4.png
+  - assets/images/image5.png
+  - assets/images/image6.png
+  - assets/images/image7.png
+  - assets/images/image8.png
+  - assets/images/image9.png
+  - assets/images/image10.png
+  - assets/images/image11.png
+  - assets/images/image12.png
+  - assets/images/image13.png
+  - assets/images/image14.png
+  - assets/images/image15.png
+  - assets/images/image16.png
+  - assets/images/image17.png
+  - assets/images/image18.png
+  - assets/images/image19.png
+  - assets/images/image20.png
+  - assets/images/image21.png
+  - assets/images/image22.png
+  - assets/images/image23.png
+  - assets/images/image24.png
+
